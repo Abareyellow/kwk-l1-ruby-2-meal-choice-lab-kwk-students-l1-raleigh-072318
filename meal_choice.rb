@@ -19,9 +19,9 @@ def dinner(food="Salmon")
   "I want #{food} for dinner"
 end
 
-puts breakfast
-puts lunch
-puts dinner
+puts breakfast(food="")
+puts lunch(food="")
+puts dinner(food="")
 
 
 
